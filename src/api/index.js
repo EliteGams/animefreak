@@ -7,15 +7,15 @@ router.get('/', (req, res) => {
     message: 'AnimeFreak API - 👋🌎🌍🌏',
     entries: [
       {
-       "AnimeVideoHandler": "https://animefreak.chrismichael.now.sh/api/v1/AnimeVideoHandler/:id",
-       "OngoingAnime": "https://animefreak.chrismichael.now.sh/api/v1/OngoingAnime",
-       "Popular": "https://animefreak.chrismichael.now.sh/api/v1/Popular",
-       "LatestEpisodes": "https://animefreak.chrismichael.now.sh/api/v1/LatestEpisodes/:page",
-       "Movies": "https://animefreak.chrismichael.now.sh/api/v1/Movies/:page",
-       "Ova": "https://animefreak.chrismichael.now.sh/api/v1/Ova/:page",
-       "TV": "https://animefreak.chrismichael.now.sh/api/v1/TV/:page",
-       "Search": "https://animefreak.chrismichael.now.sh/api/v1/Search/:query",
-       "Genres": "https://animefreak.chrismichael.now.sh/api/v1/Genres/:genre/:page",
+       "AnimeVideoHandler": "https://animefreak.vercel.app/api/v1/AnimeVideoHandler/:id",
+       "OngoingAnime": "https://animefreak.vercel.app/api/v1/OngoingAnime",
+       "Popular": "https://animefreak.vercel.app/v1/Popular",
+       "LatestEpisodes": "https://animefreak.vercel.app/api/v1/LatestEpisodes/:page",
+       "Movies": "https://animefreak.vercel.app/api/v1/Movies/:page",
+       "Ova": "https://animefreak.vercel.app/api/v1/Ova/:page",
+       "TV": "https://animefreak.vercel.app/api/v1/TV/:page",
+       "Search": "https://animefreak.vercel.app/api/v1/Search/:query",
+       "Genres": "https://animefreak.vercel.app/api/v1/Genres/:genre/:page",
       }
     ]
   });
