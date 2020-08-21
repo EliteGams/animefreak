@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
       {
        "AnimeVideoHandler": "https://animefreak.vercel.app/api/v1/AnimeVideoHandler/:id",
        "OngoingAnime": "https://animefreak.vercel.app/api/v1/OngoingAnime",
-       "Popular": "https://animefreak.vercel.app/v1/Popular",
+       "Popular": "https://animefreak.vercel.app/api/v1/Popular",
        "LatestEpisodes": "https://animefreak.vercel.app/api/v1/LatestEpisodes/:page",
        "Movies": "https://animefreak.vercel.app/api/v1/Movies/:page",
        "Ova": "https://animefreak.vercel.app/api/v1/Ova/:page",
